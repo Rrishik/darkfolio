@@ -1,0 +1,55 @@
+// Place all the styles related to the Profile controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    background: url(bg-6.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: right;
+    font-family:'Noto Sans' sans-serif;
+
+}
+h1{
+
+    color:white;
+    font-size: 50px;
+    font-weight:normal;
+    margin-bottom: 0;
+    font-family:'Noto Sans' sans-serif;
+}
+
+h2 {
+    color:white;
+    font-size:18px;
+    margin-top: 0;
+}
+
+
+.bio {
+    color:white;
+    font-size: 16px;
+
+}
+
+.me {
+    height:150px;
+    width: 150px;
+    border-radius:50%;
+    border-style:solid;
+    border-color:white;
+    margin-top: 40px;
+}
+.about {
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.grey{
+    height: 3px;
+    background-color: #919191;
+    border:none;
+    width: 50px;
+}
